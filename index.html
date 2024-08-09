@@ -5,14 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
-    <h1>Javascript Playground</h1>
-    <p>The #1 JavaScript playground and sandbox to write, run and repl it. JavaScript playground is perfect for learning
-        and prototyping javascript sandboxes. Fast. Easy to use. Start javascript playground project using ready to use
-        templates.</p>
+<header class="flex h-16 w-full items-center px-4 md:px-6">
+    <a class="mr-6 flex items-center" href="#">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+      >
+        <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
+      </svg>
+      <span class="sr-only">Acme Inc</span>
+    </a>
+    <nav class="ml-auto flex items-center gap-4">
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+        Features
+      </a>
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+        Pricing
+      </a>
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+        About
+      </a>
+      <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+        Contact
+      </a>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+        Get Started
+      </button>
+    </nav>
+  </header>
 
     <script src="index.js"></script>
 </body>
